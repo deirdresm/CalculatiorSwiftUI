@@ -7,6 +7,24 @@
 
 import SwiftUI
 
+struct ResultCell: View {
+    let color: Color
+    let text: String
+    let geometry: GeometryProxy
+    
+    var body: some View {
+        HStack {
+            Spacer()
+            Text(text)
+                .frame(width: geometry.size.width, height: geometry.size.height)
+                .background(color)
+                .foregroundColor(Color.textColor)
+                .font(.title)
+                .padding(1)
+        }
+     }
+}
+
 struct ButtonCell: View {
     let color: Color
     let text: String
@@ -15,11 +33,12 @@ struct ButtonCell: View {
     
     var body: some View {
         Text(text)
-            .frame(width: geometry.size.width / 4.0 * CGFloat(width), height: geometry.size.height)
+            .padding(1)
+            .frame(width: (geometry.size.width * CGFloat(width)) / 4.0, height: geometry.size.height)
             .background(color)
             .foregroundColor(Color.textColor)
             .font(.title)
-            .padding(1)
+            .border(Color.backgroundColor, width: 1.0)
      }
 }
 
@@ -34,11 +53,8 @@ struct ContentView: View {
             Color.backgroundColor
 
         VStack(spacing: 0) {
-            HStack {
-                Spacer()
                 GeometryReader { geometry in
-                    ButtonCell(color: Color.resultView, text: "0", width: 4, geometry: geometry)
-             }
+                    ResultCell(color: Color.resultView, text: "0", geometry: geometry)
             }
             GeometryReader { geometry in
                 HStack(spacing: 0) {
