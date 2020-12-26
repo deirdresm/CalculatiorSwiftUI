@@ -6,6 +6,8 @@ I periodically go back and do projects that are newer or have been revised. In t
 
 ## Portrait
 
+Screenshot from London App Brewery:
+
 ![Portrait](Documentation/Portrait.png)
 
 ## SwiftUI
@@ -17,8 +19,9 @@ Since I've been working more in SwiftUI these days, and since it involved some t
 * Uses Assets catalog for colors, which I named based on function (e.g., NumberButton) rather than a more traditional SecondaryColor, TertiaryColor scheme. If it were larger than one screen, I'd no doubt head that direction.
 * Added both light mode (default) and dark mode color schemes.
 * Changed the orange from the original app because I felt there wasn't enough contrast for lower vision users. Note that another approach is to lay down the text twice, and the bottom text is the opposite color but blurred, which increases the contrast around the edges of the letters. Since this was a flat UI, I didn't go that route, but it works great against textured backgrounds, especially when used with a gentle hand.
-* Adds extension to Color for those color names.
-* Uses GeometryReader for layout.
+* Add extension to Color for those color names.
+* Used GeometryReader for layout.
+* Added landscape preview in dark mode.
 
 ### TODO
 
