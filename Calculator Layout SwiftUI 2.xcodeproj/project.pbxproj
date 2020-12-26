@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		389F89B42597C0CB00006C09 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389F89B32597C0CB00006C09 /* Color+Extensions.swift */; };
 		38BF60FB259729E700065EF8 /* CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BF60FA259729E700065EF8 /* CalculatorApp.swift */; };
 		38BF60FD259729E700065EF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BF60FC259729E700065EF8 /* ContentView.swift */; };
 		38BF60FF259729ED00065EF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38BF60FE259729ED00065EF8 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		389F89B32597C0CB00006C09 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		38BF60F7259729E700065EF8 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38BF60FA259729E700065EF8 /* CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorApp.swift; sourceTree = "<group>"; };
 		38BF60FC259729E700065EF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				38BF60FA259729E700065EF8 /* CalculatorApp.swift */,
+				389F89B32597C0CB00006C09 /* Color+Extensions.swift */,
 				38BF60FC259729E700065EF8 /* ContentView.swift */,
 				38BF60FE259729ED00065EF8 /* Assets.xcassets */,
 				38BF6103259729ED00065EF8 /* Info.plist */,
@@ -103,7 +106,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 38BF60F2259729E600065EF8 /* Build configuration list for PBXProject "Calculator" */;
+			buildConfigurationList = 38BF60F2259729E600065EF8 /* Build configuration list for PBXProject "Calculator Layout SwiftUI 2" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -140,6 +143,7 @@
 			files = (
 				38BF60FD259729E700065EF8 /* ContentView.swift in Sources */,
 				38BF60FB259729E700065EF8 /* CalculatorApp.swift in Sources */,
+				389F89B42597C0CB00006C09 /* Color+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +313,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		38BF60F2259729E600065EF8 /* Build configuration list for PBXProject "Calculator" */ = {
+		38BF60F2259729E600065EF8 /* Build configuration list for PBXProject "Calculator Layout SwiftUI 2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				38BF6104259729ED00065EF8 /* Debug */,
