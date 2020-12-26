@@ -50,10 +50,6 @@ struct ButtonCell: View {
 
 struct ContentView: View {
     
-    let blue = Color(red: 27, green: 173, blue: 248)
-    let orange = Color.orange
-    let grey = Color.gray
-
     var body: some View {
         ZStack {
             Color.backgroundColor
@@ -91,7 +87,7 @@ struct ContentView: View {
                 ButtonCell(color: Color.numberButton, text: "1", accessibleLabel: "1", width: 1, geometry: geometry)
                 ButtonCell(color: Color.numberButton, text: "2", accessibleLabel: "2", width: 1, geometry: geometry)
                 ButtonCell(color: Color.numberButton, text: "3", accessibleLabel: "3", width: 1, geometry: geometry)
-                ButtonCell(color: orange, text: "+", accessibleLabel: "plus", width: 1, geometry: geometry)
+                ButtonCell(color: Color.operatorButton, text: "+", accessibleLabel: "plus", width: 1, geometry: geometry)
                 }
             }
             GeometryReader { geometry in
